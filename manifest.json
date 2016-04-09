@@ -14,7 +14,7 @@
     "https://ajax.googleapis.com/"],
 
     "content_scripts": [ {
-      "matches": ["http://*/*"],
+      "matches": ["<all_urls>"],
       "js": ["jquery-2.2.3.min.js"]
   } ]
 }
