@@ -64,4 +64,7 @@ function attachScript(){
     });
 }
 
-document.getElementById('submitButton').addEventListener('click', attachScript);
+window.onload=function(){
+    document.getElementById('submitButton').addEventListener('click', attachScript);
+    console.log("page loaded");
+}
