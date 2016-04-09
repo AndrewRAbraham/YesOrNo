@@ -57,3 +57,11 @@ function renderStatus(statusText) {
 document.addEventListener('DOMContentLoaded', function() {
   //renderStatus('');
 });
+
+function attachScript(){
+  chrome.tabs.executeScript({
+      file: 'onSubmitButton.js'
+    });
+}
+
+document.getElementById('submitButton').addEventListener('click', attachScript);
