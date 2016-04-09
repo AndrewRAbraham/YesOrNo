@@ -55,5 +55,5 @@ function renderStatus(statusText) {
   Called when the extention is clicked on.
 */
 document.addEventListener('DOMContentLoaded', function() {
-  renderStatus('Create a question');
+  //renderStatus('');
 });
